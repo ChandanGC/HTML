@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+</head>
+<body>
+    <form action="#" novalidate>
+        <input type="text" name="username" placeholder="enter name" minlength="3" maxlength="6"><br>
+        <input type="password" name="pass" placeholder="enter pass" pattern="GC@123" required><br>
+        <input type="number" name="age" min="18" max="50" step="2"><br><br>
+
+         <!-- value readonly disable -->
+        <input type="text" name="username" placeholder="enter fname" minlength="3" maxlength="10" value="Alpha" readonly ><br>
+        <input type="text" name="fname" placeholder="enter lname"  disabled><br>
+        <input type="text" placeholder="enter fullname" required autocomplete="on"><br>
+        <input type="number" name="age" min="18" max="50" step="2"><input type="checkbox" checked readonly disabled><br><br>
+        
+        <button autofocus>Submit</button>
+    </form>
+</body>
+</html>
